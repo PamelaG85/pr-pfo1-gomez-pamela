@@ -1,5 +1,7 @@
 Hola Profe, le dejo este archivo con algunas anotaciones.
 
+Como le había comentado por el sistema de mensajería de la plataforma del instituto, en principio había resuelto la práctica utilizando Flask, que luego hablando con mis compañeras me comenaron que era utilizando sockets, por lo que terminé haciéndolo de las dos maneras.  Espero que estén bien.
+
 ### Librerías de Python necesarias:
 * flask
 * requests

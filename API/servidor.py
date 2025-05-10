@@ -23,7 +23,7 @@ def recibir_mensaje():
             return jsonify({'error': 'Falta el campo "mensaje"'}), 400
     
         #timestamp actual
-        timestamp = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
+        timestamp = datetime.now().strftime('%d-%m-%Y %H:%M:%S')
 
         # Guardar en la base de datos
         guardar_mensaje(mensaje, timestamp, ip_cliente)
